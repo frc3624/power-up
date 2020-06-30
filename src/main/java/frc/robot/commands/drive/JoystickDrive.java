@@ -1,5 +1,7 @@
 package frc.robot.commands.drive;
 
+import static frc.controls.ControlUtil.deadZone;
+
 import edu.wpi.first.wpilibj.XboxController;
 import edu.wpi.first.wpilibj.GenericHID.Hand;
 import edu.wpi.first.wpilibj2.command.CommandBase;
@@ -18,7 +20,7 @@ public class JoystickDrive extends CommandBase {
 
   @Override
   public void execute() {
-    drive.arcadeDrive(-deadzone(xboxController.getY(Hand.kLeft)), deadzone(xboxController.getX(Hand.kLeft)));
+    drive.arcadeDrive(-deadZone(xboxController.getY(Hand.kLeft)), deadZone(xboxController.getX(Hand.kLeft)));
   }
 
   @Override
@@ -29,17 +31,6 @@ public class JoystickDrive extends CommandBase {
   @Override
   public void end(boolean interrupted) {
     drive.arcadeDrive(0, 0);
-  }
-
-  /*
-   * If you let go of the joystick, it wont necessarily return to (0, 0). Instead,
-   * the x and y may be some very small nonzero value. This is bad because the robot may move
-   * even though the joystick is not being touched, so we implement something called the deadzone.
-   * If the axis value is small enough, the deadzone just rounds the value to zero.
-   */
-  private final static double DEADZONE = .01;
-  private double deadzone(double axisValue) {
-    return Math.abs(axisValue) < DEADZONE ? 0 : axisValue;
   }
   
 }
