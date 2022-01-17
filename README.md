@@ -1,4 +1,4 @@
-# Archived
+# Power Up (Archived)
 
 The code for 2018's Power Up is now archived. This robot has been disassembled and no longer exists. Power Up was our
 first robot to go to championships, and would be followed by Deep Space, which went to championships as well.
@@ -27,3 +27,13 @@ I added functionality to give the driver manual control over the folding mechani
 
 - A button: Toggles the lock
 - B button: Pulls the chain lift back
+
+# Video Demos
+
+https://user-images.githubusercontent.com/44217975/149711155-1fb11845-35c7-4a7a-812f-ce35da25d109.mp4
+
+
+https://user-images.githubusercontent.com/44217975/149710327-e993af95-5343-4b44-9fb9-a31a16a6a1d5.mp4
+
+
+https://user-images.githubusercontent.com/44217975/149710333-19f4f65a-7603-4b38-b518-0163eb28722e.mp4
