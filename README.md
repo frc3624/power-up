@@ -1,5 +1,16 @@
-# BEFORE USING
-See if the robot has the color sensor or light sensor installed, and then change the variable "USING_COLOR_SENSOR" in the Constants class to the appropriate value
+# Archived
+
+The code for 2018's Power Up is now archived. This robot has been disassembled and no longer exists. Power Up was our
+first robot to go to championships, and would be followed by Deep Space, which went to championships as well.
+
+This robot's legacy amongst the team was always that it was a horrifically janky robot in regards to its reliability.
+It arguably looks the coolest/most complex, but it paid the the price for that in its usability. Due to its horribly
+front heavy design, it would constantly tip forwards, and its chain lift and cube intake system were finnicky to program
+at best. Nevertheless, this robot performed well enough at regionals to make championships, so it's obviously not all
+bad. The lessons learned from the robot are pretty apparent, and hopefully we won't make the same mistakes again.
+
+To see images and a few video demos, see the img folder. To see it in competitions, checkout 
+[The Blue Alliance](https://www.thebluealliance.com/team/3624/2018) for this year.
 
 # Controls
 This was designed to be used with a Xbox Controller

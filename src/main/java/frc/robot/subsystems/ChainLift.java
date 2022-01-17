@@ -189,7 +189,7 @@ public class ChainLift extends SubsystemBase {
     }
   }
   protected int getEncoderPosition() {
-    return masterChainMotor.getSelectedSensorPosition();
+    return (int)masterChainMotor.getSelectedSensorPosition();
   }
 
   /*

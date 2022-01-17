@@ -4,8 +4,7 @@ public final class Constants {
 
     public final static class ChainLift {
         public final static int MASTER_MOTOR_ID = 8, SLAVE_MOTOR_ID = 11;
-        public final static boolean USING_COLOR_SENSOR = true;
-        public final static int LIGHT_SENSOR_DIO_ID = 0;
+        public final static int LIGHT_SENSOR_DIO_ID =;;;
     }
 
     public final static class Drive {
